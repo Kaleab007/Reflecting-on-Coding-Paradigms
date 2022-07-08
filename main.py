@@ -16,3 +16,12 @@ class AnakinsPod(Podracer):
       super.init(condition,max_speed,price)
   def boost(self):
     self.max_speed *=2
+#newclass(secondracer)SebulsPod
+#similarly to the first class but with a defined method to flame_jet as well as the conidtion of the second vector 
+class SebulbasPod(Podracer):
+  def __init__(self,max_speed,condition,price):
+    super.init(condition,price,max_speed);
+  def flame_jet(other,self):
+    other.condition = "trashed"
+    
+#https://replit.com/@Kaleab007/Reflecting-on-Coding-Paradigms?v=1

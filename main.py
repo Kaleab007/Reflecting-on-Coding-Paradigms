@@ -23,5 +23,10 @@ class SebulbasPod(Podracer):
     super.init(condition,price,max_speed);
   def flame_jet(other,self):
     other.condition = "trashed"
+    #How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
     
+    #1..the encapsulation of each class with its own method to run each array within the method()
+    #2 the abstraction is another pillar that the class/method make it simplistic and entirely focused on those arrangements without including other programs nor directives 
+    # each program has its own method of inheritance just like sri py uses the class/subclass(def) as well as the arrays that come within the inhertance similar to cause and effort.
+    #. Each  Class/subclass  can provide its own independent implementation of polymorphism interface. Each performing its own job to combine together into engaging interface interaction .
 #https://replit.com/@Kaleab007/Reflecting-on-Coding-Paradigms?v=1
